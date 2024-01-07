@@ -1,0 +1,77 @@
+body {
+  font-family: "poppins", serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+header .menu ul {
+  list-style: none;
+  display: flex;
+}
+
+header .menu ul li {
+  padding-left: 30px;
+}
+header .menu ul li a {
+  text-decoration: none;
+  color: seagreen;
+  font-weight: 400;
+}
+/* ------------------- */
+
+main .HeroBox {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+main .container {
+  margin-top: 50px;
+}
+main .container {
+  /* display: flex; */
+  border: 3px solid seagreen;
+}
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: seagreen;
+  margin: 20px;
+  text-align: center;
+  line-height: 100px;
+  color: #fff;
+  display: inline-block;
+}
+
+.box-2{
+    z-index: 2;
+    position: absolute;
+    left: 90px;
+    background-color: aqua;
+}
+.box-4{
+position: fixed;
+right: 0;
+}
+/* --------------- */
+
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: green;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}

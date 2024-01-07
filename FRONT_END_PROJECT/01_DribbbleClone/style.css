@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+/** Pre-Style  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+  color: #0d0c22;
+}
+/** End Pre-Style  */
+
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: #565564;
+}
+
+header{
+    padding: 30px 30px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .menu{
+    width: 26%;
+}
+nav .menu ul li{
+    padding-right: 20px;
+}
+nav .menu ul li a{
+    font-size: 14px;
+    color: #565564;
+    font-weight: 600;
+}
+nav .menu ul li a:hover{}
+
+nav .logo{
+    width: 25%;
+    color: #565564;
+}
+
+nav .logo svg{
+    width: 300px;
+}
+
+nav .Cta-button{
+    display: flex;
+    align-items: center;
+}
+nav .Cta-button .search{
+}
+nav .Cta-button .search input{
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: 1px solid #565564;
+}
+nav .Cta-button{
+}
+nav .Cta-button .button{}
+nav .Cta-button .button a{
+    font-size: 14px;
+    font-weight: 600;
+    color: #565564;
+    padding-left: 20px;
+    transition: color .2s ease-in;
+}
+nav .Cta-button .button a:hover{
+    color: #0d0c22;
+}
+
+nav .Cta-button .button a.button_CTA{
+    color: #fff;
+    background-color: #0d0c22;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 0px 30px;
+    line-height: 50px;
+    margin-left: 20px;
+    transition: background-color .2s ease-in;
+}
+
+nav .Cta-button .button a.button_CTA:hover{
+    background-color: #565564;
+}

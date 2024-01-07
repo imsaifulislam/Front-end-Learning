@@ -1,0 +1,64 @@
+.container {
+  width: 80%;
+  padding: 50px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.box {
+  height: 150px;
+  width: 150px;
+  background-color: lightcoral;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 150px;
+}
+/* 
+@media screen and (min-width:750px) {
+  .box {
+    border: 5px solid green;
+    background-color: mediumaquamarine;
+  }
+} */
+
+/*
+@media screen and (max-width:750px) {
+  .box {
+    border: 5px solid green;
+    background-color: mediumaquamarine;
+  }
+} */
+
+/* -> min-width: 650px এর উপরে এই স্টাইল পাবে */
+/* @media screen and (min-width: 650px) {
+  .box {
+    border: 5px solid green;
+    background-color: mediumaquamarine;
+    height: 250px;
+    width: 250px;
+  }
+} */
+
+/* -> max-width: 650px এর নিচে এই স্টাইল পাবে */
+/* @media screen and (max-width: 650px) {
+  .box {
+    border: 5px solid rgb(38, 0, 128);
+    background-color: rgb(204, 21, 60);
+    height: 250px;
+    width: 250px;
+  }
+} */
+
+/* -> min-width: 650px  এবং max-width:750px এর মধ্যে হলে এই স্টাইল পাবে */
+@media screen and (min-width: 650px) and (max-width: 750px) {
+  .box {
+    border: 5px solid rgb(38, 0, 128);
+    background-color: rgb(204, 21, 60);
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+  }
+}

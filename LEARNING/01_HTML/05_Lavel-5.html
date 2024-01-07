@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lavel 5</title>
+</head>
+<body>
+    <head>Lavel 5</head>
+    <p>List / Table & Forms</p>
+    <hr>
+    <main>
+        <!-- List -->
+        <ul>
+            <li>apple</li>
+            <li>Mango</li>
+            <li>Gowava</li>
+            <li>Papa</li>
+        </ul>
+        <ol>
+            <li>apple</li>
+            <li>Mango</li>
+            <li>Gowava</li>
+            <li>Papa</li>
+        </ol>
+        <!-- 
+            type -> 1 / A / a / I / i
+         -->
+        <ol type="i">
+            <li>apple</li>
+            <li>Mango</li>
+            <li>Gowava</li>
+            <li>Papa</li>
+        </ol>
+
+        <br><br><br>
+        <!-- Table -->
+        <h2>Table</h2>
+        <table border="1">
+            <caption>Student Information</caption>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>Shanto</td>
+                <td>30</td>
+                <td>Shanto@pm.me</td>
+            </tr>
+            <tr>
+                <td colspan="2">Get ALl Columns</td>
+            </tr>
+        </table>
+<br><br><br><br>
+    <div>
+        <!-- 
+            -> action="/submit.php" method="post"
+            -> name => ID for Data /Unique
+            -> value :- Default Data / send to server
+         -->
+        <form action="/contact">
+            <label for="UserName">UserName :</label>
+            <input type="text" placeholder="Enter Email" id="UserName" value="john"> <br>
+
+            <label for="UserName">Password :</label>
+            <input type="password" required id="User_password"> <br>
+            
+            <label for="DateIS">Date :</label>
+            <input type="date" id="DateIS"> <br>
+            
+            <label for="FileIS">File :</label>
+            <input type="file" id="FileIS"> <br>
+            
+            <label for="ColorIS">Color Picker :</label>
+            <input type="color" id="ColorIS"> <br>
+            
+            <label for="RangeIS">Range :</label>
+            <input type="range" id="RangeIS"> <br>
+
+            <textarea name="textarea" id="textarea" cols="30" rows="10">
+                Text Here
+            </textarea> <br>
+            <button>submit</button>
+        </form>
+        <br><hr><br>
+        <form action="">
+           <label for="male">Male:</label>
+           <input type="radio" name="gender" id="male"><br>
+           <label for="female">Female:</label>
+           <input type="radio" name="gender" id="female"><br>
+           <label for="other">other:</label>
+           <input type="radio" name="gender" id="other"><br>
+        </form>
+        <br><hr><br>
+        <form action="">
+           <label for="apple">apple:</label>
+           <input type="checkbox" name="fruit" id="apple"><br>
+           <label for="banana">banana:</label>
+           <input type="checkbox" name="fruit" id="banana"><br>
+           <label for="Jackfruit">Jackfruit:</label>
+           <input type="checkbox" name="fruit" id="Jackfruit"><br>
+           <label for="Orange">Orange:</label>
+           <input type="checkbox" name="fruit" id="Orange"><br>
+        </form>
+        <br><hr><br>
+        <form action="">
+           <label for="fruits">Choose a fruit:</label>
+           <select id="fruits" name="fruits">
+            <option value="apple">apple</option>
+            <option value="banana">banana</option>
+            <option value="Jackfruit">Jackfruit</option>
+            <option value="Orange">Orange</option>
+           </select>
+        </form>
+        <br><hr><br>
+
+        <iframe src="./05_Lavel-5.html" frameborder="0" width="300" height="200"></iframe>
+    </div>
+    </main>
+</body>
+</html>

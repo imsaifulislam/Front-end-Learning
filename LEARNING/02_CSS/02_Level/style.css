@@ -1,0 +1,35 @@
+.back_color {
+}
+.box-1,
+.box-2,
+.box-3 {
+  height: 250px;
+  width: 250px;
+  /* float: left; */
+  text-align: center;
+  line-height: 150px;
+}
+.back_color .box-1 {
+    background-color: red;
+    visibility: hidden;
+}
+.back_color .box-2 {
+    background-color: violet;
+    visibility: visible;
+}
+.back_color .box-3 {
+    background-color: rgb(46, 255, 157);
+}
+
+
+.box4{
+ width: auto;
+    height: 500px;
+    /*    background-image: url(./img.png);
+    background-size: contain; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+
+    background: green url(./img.png) no-repeat center;
+}

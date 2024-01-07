@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  border: 5px solid yellowgreen;
+  display: flex;
+  justify-content: space-between;
+  height: 600px;
+  padding: 50px;
+  margin: 50px;
+}
+
+img {
+  width: 50%;
+}
+/* 
+.box {
+  height: 120px;
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  color: aliceblue;
+  line-height: 120px;
+  text-transform: uppercase;
+}
+
+.box-1 {
+  background: rgb(57, 223, 57);
+}
+.box-2 {
+  background: rebeccapurple;
+}
+.box-3 {
+  background: palevioletred;
+}
+
+@media screen and (max-width: 1280px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+} */
+
+/* @media screen and (max-width: 500px) {
+  .box-1 {
+    background: rgb(180, 17, 72);
+  }
+} */
+
+/* 
+   * min-width: 500px থেকে max-width: 600px এর মধ্যে এই স্টাইল পাবে
+*/
+/* @media screen and (min-width: 500px) and (max-width: 600px) {
+  .box-1 {
+    background: rgb(180, 17, 72);
+  }
+} */
+
+/** min-width: 300px হচ্ছে 300px এর উপরে  [300 - upPX]  যা আছে সেইগুলো এই স্টাইল পাবে, এর নিচে নামলে আগের স্টাইল পাবে */
+/* @media screen and (min-width: 300px) {
+  .box-2 {
+    background: rgb(7, 57, 219);
+  }
+} */
+
+/** max-width: 300px হচ্ছে 300px এর নিচে [0 - 300px] যা আছে সেইগুলো এই স্টাইল পাবে, এর উপরে নামলে আগের বা ডিফ্লট স্টাইল পাবে 
+
+*/
+/* @media screen and (max-width: 300px) {
+  .box-2 {
+    background: rgb(7, 57, 219);
+  }
+} */
+
+/* * 300 & 400 এর মধ্যে এই কালার হবে! */
+/* @media screen and (min-width: 300px) and (max-width: 400px) {
+  .box-2 {
+    background: rgb(100, 141, 17);
+  }
+}
+ */
+
+ /* ================================== */
+
+ 

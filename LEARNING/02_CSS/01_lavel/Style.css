@@ -1,0 +1,35 @@
+/* -> Comment <- */
+
+/* Universel Selector */
+* {
+  color: red;
+}
+
+/* Element Selector */
+h4 {
+  color: cyan;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+/* Id Selector */
+#id {
+  color: rgb(255, 0, 255);
+}
+
+/* Class Selector */
+.class {
+  color: rgb(71, 9, 71);
+}
+
+/* group Class Selector */
+.class,
+.class2 {
+  color: rgb(71, 9, 71);
+}
+
+/* Desendent Selector */
+
+div p {
+    font-size: 36px;
+}

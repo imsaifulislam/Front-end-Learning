@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  color: rgba(0, 0, 0, 0.87);
+  font-family: poppins, "serif";
+}
+
+/* --------Main Style --------- */
+
+.nav_container {
+  height: 80px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.nav_container ul {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.nav_container ul li a {
+  padding-left: 40px;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+.nav_container ul li a:hover {
+  color: #4285f4;
+}
+
+.nav_container ul li a i {
+  font-size: 30px;
+}
+
+.nav_container ul li a img {
+  width: 45px;
+}
+
+main {
+  height: 78vh;
+  width: 100%;
+  padding: 10%;
+  text-align: center;
+}
+
+.container {
+}
+.container .logo img {
+  width: 18%;
+}
+.container .search {
+  padding: 30px 0px;
+}
+.container .search input {
+  width: 50%;
+  padding: 20px 10px;
+  border-radius: 50px;
+  border: 1px solid #bababb;
+}
+.container .button_Container {
+  margin: 10px 0px 40px 0px;
+}
+.container .button_Container a {
+  background: #f8f9fa;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0px 5px;
+  transition: all 0.2s ease-in;
+}
+.container .button_Container a:hover {
+  background-color: #4285f4;
+  color: #fff;
+}
+
+.container p {
+  font-size: 14px;
+}
+
+.container p a {
+  color: blue;
+}
+
+footer {
+  background: #f2f2f2;
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+.footer_top {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #b9b9b9;
+}
+
+.footer_bottom {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer_bottom .footer_nav_left ul {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.footer_bottom .footer_nav_left ul li {
+  padding-right: 20px;
+}
+.footer_bottom .footer_nav_right ul {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.footer_bottom .footer_nav_right ul li {
+  padding-left: 20px;
+}

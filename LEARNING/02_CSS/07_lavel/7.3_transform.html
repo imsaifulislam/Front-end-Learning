@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transitions</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      .container {
+        display: flex;
+      }
+
+      .box-1 {
+        height: 150px;
+        width: 100px;
+        background-color: palevioletred;
+        border-radius: 20px;
+        transition: all 1s ease-in-out 0.2s;
+        margin: 50px auto;
+      }
+      .box-2 {
+        height: 150px;
+        width: 100px;
+        background-color: palevioletred;
+        border-radius: 20px;
+        transition: all 1s ease-in-out 0.2s;
+        margin: 50px auto;
+      }
+      .box-3 {
+        height: 150px;
+        width: 100px;
+        background-color: palevioletred;
+        border-radius: 20px;
+        transition: all 1s ease-in-out 0.2s;
+        margin: 50px auto;
+      }
+      .box-4 {
+        height: 150px;
+        width: 100px;
+        background-color: palevioletred;
+        border-radius: 20px;
+        transition: all 1s ease-in-out 0.2s;
+        margin: 50px auto;
+      }
+      .box-1:hover {
+        background-color: rebeccapurple;
+        /*transform: rotate(350deg);
+        transform: rotate(45deg);
+        transform: scale(2);*/
+
+        transform: translate(50px);
+      }
+      .box-2:hover {
+        background-color: green;
+        /*transform: rotate(350deg);
+        transform: rotate(180deg);
+        transform: scale(4);*/
+
+        transform: translate(50px, 50px);
+      }
+      .box-3:hover {
+        background-color: red;
+        /*transform: rotate(350deg);
+        transform: rotatex(45deg);
+        transform: scalex(2);*/
+
+        transform: translatex(50px);
+      }
+      .box-4:hover {
+        background-color: pink;
+        /*transform: rotate(350deg);
+        transform: rotatey(45deg);
+        transform: scaley(3);*/
+
+        transform: translatey(50px);
+        transform: skew(30deg);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div class="btn">
+      <a href="#">Click Me</a>
+    </div> -->
+    <div class="container">
+      <div class="box-1"></div>
+      <div class="box-2"></div>
+      <div class="box-3"></div>
+      <div class="box-4"></div>
+    </div>
+  </body>
+</html>

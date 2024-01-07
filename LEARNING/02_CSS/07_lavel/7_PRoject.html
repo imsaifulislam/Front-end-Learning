@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+
+    <style>
+      .container {
+        width: 90%;
+        height: 25px;
+        background-color: gainsboro;
+        border: 2px solid rgb(141, 139, 139);
+        border-radius: 50px;
+        margin: 20px auto;
+      }
+
+      .progress-bar {
+        height: 100%;
+        width: 50%;
+        background-color: blue;
+        border-radius: 50px;
+
+        animation: progress 3s;
+      }
+
+      @keyframes progress {
+        0% {
+          width: 0%;
+        }
+        90% {
+          width: 95%;
+        }
+        95% {
+          width: 70%;
+        }
+        100% {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="progress-bar"></div>
+    </div>
+  </body>
+</html>
