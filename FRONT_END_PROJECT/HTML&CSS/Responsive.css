@@ -1,8 +1,61 @@
+/* * Instractory Course */
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 }
 @media only screen and (min-width: 767px) {
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
+
+/* =========================================== */
+
+/* * Themeforest */
+@media (max-width: 1366px) {
+}
+
+@media (max-width: 1199px) {
+}
+
+@media (max-width: 1024px) {
+}
+@media (max-width: 992px) {
+}
+
+@media (max-width: 991px) {
+}
+
+@media (max-width: 767px) {
+}
+
+@media screen and (max-width: 600px) {
+}
+
+/* =========================================== */
+
+@media only screen and (max-width: 1700px) {
+}
+
+@media only screen and (max-width: 1439px) {
+}
+
+@media only screen and (max-width: 1199px) {
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (max-width: 1023px) {
+}
+
+@media only screen and (max-width: 767px) {
+}
+
+@media only screen and (max-width: 599px) {
+}
+
+@media only screen and (max-width: 424px) {
+}
+
+@media only screen and (max-width: 320px) {
 }
